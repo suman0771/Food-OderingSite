@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cart</title>
+    <!--favicon-->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <!-- swiper css link  -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <!-- cusom css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- header section starts  -->
+
+    <header class="header">
+      <a href="home.html" class="logo">
+        <i class="fas fa-hamburger"></i> Foodie
+      </a>
+
+      <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here..." />
+        <label for="search-box" class="fas fa-search"></label>
+      </form>
+
+      <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <a href="login.html" class="fas fa-user"></a>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="cart.html" class="fas fa-shopping-cart"></a>
+      </div>
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- side-bar section starts -->
+
+    <div class="side-bar">
+      <div id="close-side-bar" class="fas fa-times"></div>
+
+      <div class="user">
+        <img src="images/user-img.png" alt="" />
+        <h3>Suman Moond</h3>
+        <a href="#">log out</a>
+      </div>
+
+      <nav class="navbar">
+        <a href="home.html"> <i class="fas fa-angle-right"></i> home </a>
+        <a href="about.html"> <i class="fas fa-angle-right"></i> about </a>
+        <a href="foods.html"> <i class="fas fa-angle-right"></i> foods </a>
+        <a href="contact.html"> <i class="fas fa-angle-right"></i> contact </a>
+        <a href="login.html"> <i class="fas fa-angle-right"></i> login </a>
+        <a href="register.html">
+          <i class="fas fa-angle-right"></i> register
+        </a>
+        <a href="cart.html"> <i class="fas fa-angle-right"></i> cart </a>
+      </nav>
+    </div>
+
+    <!-- side-bar section ends -->
+
+    <!-- shopping cart section starts  -->
+
+    <section class="shopping-cart">
+      <h1 class="heading">your <span>foods</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-times"></i>
+          <img src="images/product-1.jpg" alt="" />
+          <div class="content">
+            <h3>Fruit Salad</h3>
+            <form action="">
+              <span>quantity : </span>
+              <input type="number" name="" value="1" id="" />
+            </form>
+            <div class="price">$249.99 <span>$399.99</span></div>
+          </div>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-times"></i>
+          <img src="images/product-2.jpg" alt="" />
+          <div class="content">
+            <h3>Fruit Salad</h3>
+            <form action="">
+              <span>quantity : </span>
+              <input type="number" name="" value="1" id="" />
+            </form>
+            <div class="price">$289.99 <span>$429.99</span></div>
+          </div>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-times"></i>
+          <img src="images/product-3.jpg" alt="" />
+          <div class="content">
+            <h3>Veg. Corn Pizza</h3>
+            <form action="">
+              <span>quantity : </span>
+              <input type="number" name="" value="1" id="" />
+            </form>
+            <div class="price">$229.99 <span>$329.99</span></div>
+          </div>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-times"></i>
+          <img src="images/product-4.jpg" alt="" />
+          <div class="content">
+            <h3>Caesar Salad</h3>
+            <form action="">
+              <span>quantity : </span>
+              <input type="number" name="" value="1" id="" />
+            </form>
+            <div class="price">$149.99 <span>$199.99</span></div>
+          </div>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-times"></i>
+          <img src="images/product-6.jpg" alt="" />
+          <div class="content">
+            <h3>Egg Salad</h3>
+            <form action="">
+              <span>quantity : </span>
+              <input type="number" name="" value="1" id="" />
+            </form>
+            <div class="price">$149.99 <span>$199.99</span></div>
+          </div>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-times"></i>
+          <img src="images/product-7.jpg" alt="" />
+          <div class="content">
+            <h3>Caesar Salad</h3>
+            <form action="">
+              <span>quantity : </span>
+              <input type="number" name="" value="1" id="" />
+            </form>
+            <div class="price">$379.99 <span>$499.99</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cart-total">
+        <h3>subtotal : <span>$2059.94</span></h3>
+        <h3>discount : <span>-$610.00</span></h3>
+        <h3>subtotal : <span>$1449.94</span></h3>
+        <a href="#" class="btn">proceed to checkout</a>
+      </div>
+    </section>
+
+    <!-- shopping cart section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="quick-links">
+      <a href="home.html" class="logo">
+        <i class="fas fa-hamburger"></i> Foodie
+      </a>
+
+      <div class="links">
+        <a href="home.html"> home </a>
+        <a href="about.html"> about </a>
+        <a href="foods.html"> foods </a>
+        <a href="contact.html"> contact </a>
+        <a href="login.html"> login </a>
+        <a href="register.html"> register </a>
+        <a href="cart.html"> cart </a>
+      </div>
+
+      <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+      </div>
+    </section>
+
+    <section class="credit">
+      <p>© 2021 All rights reserved | by <span> Suman Moond</span></p>
+
+      <img src="images/card_img.png" alt="" />
+    </section>
+
+    <!-- footer section ends -->
+
+    <!-- swiper js link      -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
